@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #FFF;
+  background: #FFFFFF;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -100,7 +100,8 @@ a:hover {
 }
 
 .d-bloc {
-  color: rgba(255, 255, 255, 0.7);
+ /* color: rgba(255, 255, 255, 0.7);*/
+ color: #FFFFFF;
 }
 
 .d-bloc button:hover {
@@ -683,7 +684,7 @@ a {
 }
 
 p {
-  font-size: 11px;
+  font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -711,12 +712,13 @@ p {
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 28px;
   line-height: 1.4em;
+  font-weight: 700;
 }
 
 h3 {
-  font-size: 15px;
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: 700;
   color: #333333 !important;
@@ -781,7 +783,7 @@ h4 {
 }
 
 .tc-white {
-  color: #F3976C !important;
+  color: #FFFFFF !important;
 }
 
 .btn-atomic-tangerine {
@@ -1076,12 +1078,21 @@ p,
   }
 }
 
-.keywords1 {
-  color:#cccccc;font-size:1px;
+.bold {
+  font-size: 22px;
+}
+
+.row {
+  position: relative;
+}
+
+/*.keywords1 {
+  color:#cccccc;
+  font-size:1px;
 }
 
 .keywords2 {
   color:#F3976C;
-}
+}*/
 
 /*# sourceMappingURL=style.css.map */
