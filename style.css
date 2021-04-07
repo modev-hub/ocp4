@@ -743,6 +743,9 @@ h4 {
 
 .portfolio-thumb {
   margin-bottom: 24px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }
 
 .portfolio-row {
@@ -1022,6 +1025,13 @@ p,
     justify-content: space-between;
     display: flex;
     padding: 10px 0px 20px;
+    width: 100%;
+  }
+
+  .row-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
